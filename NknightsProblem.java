@@ -1,9 +1,9 @@
 import java.util.*;
 public class NknightsProblem {
     public static void main(String[] args) {
-        int n=4;
+        int n=3;
         boolean[][] board=new boolean[n][n] ;
-        Knight(board, 0, 0, 4);
+        Knight(board, 0, 0, 5);
       }
     static void Knight(boolean [][]board,int row,int col,int knights){
 
